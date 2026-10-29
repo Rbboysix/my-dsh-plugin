@@ -1,0 +1,11 @@
+{
+  "name": "my-dsh-plugin",
+  "version": "0.0.1",
+  "description": "My first DSH plugin",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  }
+}
